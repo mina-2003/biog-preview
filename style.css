@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
+
+/* Yellow: 
+
+- White: 
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Figtree;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    height: 70vh;
+    width: 25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 16px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px 0px;
+}
+.main img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height:42%;
+
+}
+.div1{
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 600;
+    width: fit-content;
+    padding: 5px 13px;
+    margin: 10px 0;
+}
+.div2{
+
+}
+.div3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.div4{
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom:10px ;
+}
+.divimage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.divimage img{
+    width: calc(100%/4);
+    border-radius: 50%;
+}
+.divimage p{
+    font-weight: 700;
+    text-transform: capitalize;
+}
